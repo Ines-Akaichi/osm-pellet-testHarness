@@ -1,11 +1,11 @@
 # Evaluation of the Obligation State Manager-Pellet (OSM-Pellet)
 
 This repository provides an **evaluation framework** for testing the generation and execution of **obligations** following **the Obligation Compliance Model Ontotlogy** based on patient information.
-It includes a **data generator** and a **test harness** for measuring performance in terms of the number of obligations.
+It is based on a **data generator** and includes a **test harness** for measuring performance in terms of the number of obligations.
 
 ## Overview
 
-The evaluation framework consists of two main components:
+The evaluation framework uses two main components:
 
 ### 1. Generator [1]
 - Generates a configurable number of cumulative **obligations** based on input **subsets of patient information**. An example of subsets of patient information can be found here [2].
@@ -44,7 +44,7 @@ emr:AdmissionForm rdfs:subClassOf :Resource .
 
 ## Usage
 
-### Running the  [1]
+### Running the Generator [1]
 1. Configure input parameters (e.g., subsets of patient information, number of obligations) in the benchmark.properties file.  
 2. Run the generator to create a set of obligations stored in **Turtle (.ttl) files**.
 3. The script for running the Test Harness can be found under the scripts folder.
