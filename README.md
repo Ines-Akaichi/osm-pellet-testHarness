@@ -8,7 +8,7 @@ It includes a **data generator** and a **test harness** for measuring performanc
 The evaluation framework consists of two main components:
 
 ### 1. Generator [1]
-- Generates a configurable number of cumulative **obligations** based on input **subsets of patient information**. An example of subsets of patient information can be found here [1].
+- Generates a configurable number of cumulative **obligations** based on input **subsets of patient information**. An example of subsets of patient information can be found here [2].
 - Each obligation instance is generated following the Obligation Compliance Model Ontology
 - Supports multiple **temporal cases** to simulate realistic scenarios.
 - Each obligation follows a general parameterized template.  The template defines the structural components of an obligation, while entities, resources, actions, and temporal parameters are instantiated dynamically.
