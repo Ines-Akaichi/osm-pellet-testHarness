@@ -16,7 +16,7 @@ echo "=========================================="
 echo "=== Running all abox files==="
 echo "=========================================="
 for query in "OBLIGATION_STATE" "REGULATED_ACTION_STATE" "TEMPORAL_ACTION_STATE" "EVENT_STATE" "ENTITY" "ACTION" "RESOURCE"; do
-  for nbOblig in 9 18 27 36 45 54 63 72 81; do
+  for nbOblig in 9 18 27 36 45 54 63 72; do
     file_path="$ABOX_DIR/generated-obligations-$nbOblig.ttl"
     # clear cash 
 
